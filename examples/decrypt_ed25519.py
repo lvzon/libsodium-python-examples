@@ -56,9 +56,13 @@ else:
     message = sys.stdin.buffer.read()
     
 
-# Decrypt message and write to output
+# Try to decrypt message and write to output
 
-plaintext = decrypt(message, shared_key)
+try:
+    plaintext = decrypt(message, shared_key)
+except:
+    print("Could not decrypt message\n", file=sys.stderr)
+    exit(1)
 
 if len(sys.argv) >= 5:
     write_bytes(sys.argv[4], plaintext)
