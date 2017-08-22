@@ -26,3 +26,5 @@ To use the examples, you will need to have libsodium installed.
 See the [installation guide](https://download.libsodium.org/doc/installation/) for more information.
 On Ubuntu and other Debian-based Linux systems, you can simply do: `sudo apt-get install libsodium-dev`
 
+August 2017, Levien van Zon (https://github.com/lvzon)
+

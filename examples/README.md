@@ -56,3 +56,5 @@ To authenticate and decrypt the message, you'll need the public key of the sende
 ./decrypt_ed25519.py server_secret.ed25519 client_pubkey.ed25519 encrypted_message
 ```
 
+August 2017, Levien van Zon (https://github.com/lvzon)
+
