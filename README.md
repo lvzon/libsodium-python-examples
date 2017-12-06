@@ -5,7 +5,10 @@ Bindings and examples for using low-level libsodium functionality in Python.
 The ctype-bindings here are a slightly extended version of [libnacl](https://github.com/saltstack/libnacl)'s 
 [`__init__.py`](https://github.com/saltstack/libnacl/blob/master/libnacl/__init__.py), written by 
 [Thomas S Hatch](https://github.com/thatch45) and others. See https://github.com/saltstack/libnacl for
-the original source code and higher-level bindings for Python. The ctype-bindings provided here have been [merged into libnacl](https://github.com/saltstack/libnacl/pull/102) in September 2017, so to run the examples you can use either the binding-file provided here, or a recent version of libnacl.
+the original source code and higher-level bindings for Python. The ctype-bindings provided here have been 
+[merged into libnacl](https://github.com/saltstack/libnacl/pull/102) in September 2017, so to run the 
+examples you can use either the binding-file provided here, or a 
+[recent release of libnacl](https://github.com/saltstack/libnacl/releases) (>= v1.6.0).
 
 [Libsodium](https://download.libsodium.org/doc) is a modern C-library for encryption, decryption, signatures, 
 password hashing and more, based on the algorithms in Daniel J. Bernstein's [NaCl](http://nacl.cr.yp.to/). 
@@ -26,5 +29,5 @@ To use the examples, you will need to have libsodium installed.
 See the [installation guide](https://download.libsodium.org/doc/installation/) for more information.
 On Ubuntu and other Debian-based Linux systems, you can simply do: `sudo apt-get install libsodium-dev`
 
-August 2017, Levien van Zon (https://github.com/lvzon)
+December 2017, Levien van Zon (https://github.com/lvzon)
 
